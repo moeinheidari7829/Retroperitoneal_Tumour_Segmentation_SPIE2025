@@ -18,7 +18,7 @@ Instructions for setting up the environment and running the code will be provide
 ---
 
 ## 🏆 Acknowledgment  
-We sincerely thank the authors of **[WIRE](https://github.com/example)**, and **[SIREN](https://github.com/example)** for their open-source contributions.  
+We sincerely thank the authors of **[U-Mamba](https://github.com/bowang-lab/U-Mamba)**, and **[xLSTM-Unet](https://github.com/tianrun-chen/xLSTM-UNet-Pytorch)** for their open-source contributions.  
 
 ---
 
