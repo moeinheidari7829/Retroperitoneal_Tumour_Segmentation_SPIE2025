@@ -4,16 +4,11 @@
 **📄 Paper:** *A Study on the Performance of U-Net Modifications in Retroperitoneal Tumor Segmentation*  
 📌 **Status:** Accepted at **SPIE Medical Imaging 2025** 🎉  
 
-🔗 **[Read the Paper on arXiv](https://arxiv.org/abs/XXXX.XXXXX)** (Coming Soon)  
+🔗 **[Read the Paper on arXiv](https://arxiv.org/abs/2502.00314)**
 
 ---
 
 ## 🚧 Code Release - Coming Soon! ⏳  
-
----
-
-## 🛠️ Setup & Installation (To be updated)  
-Instructions for setting up the environment and running the code will be provided upon release.  
 
 ---
 
@@ -26,9 +21,12 @@ We sincerely thank the authors of **[U-Mamba](https://github.com/bowang-lab/U-Ma
 If you find our work useful, please consider citing our paper:  
 
 ```bibtex
-@inproceedings{your2025paper,
-  title={A Study on the Performance of U-Net Modifications in Retroperitoneal Tumor Segmentation},
-  author={Heidari, Moein and [Co-Authors]},
-  booktitle={Proceedings of SPIE Medical Imaging},
-  year={2025}
+@misc{heidari2025studyperformanceunetmodifications,
+      title={A Study on the Performance of U-Net Modifications in Retroperitoneal Tumor Segmentation}, 
+      author={Moein Heidari and Ehsan Khodapanah Aghdam and Alexander Manzella and Daniel Hsu and Rebecca Scalabrino and Wenjin Chen and David J. Foran and Ilker Hacihaliloglu},
+      year={2025},
+      eprint={2502.00314},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2502.00314}, 
 }
