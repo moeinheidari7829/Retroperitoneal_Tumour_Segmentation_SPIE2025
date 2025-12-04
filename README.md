@@ -6,7 +6,7 @@ ViLU-Net is our SPIE 2025 architecture built on nnU-Net v2, embedding Vision-LST
 Due to privacy reasons, the retroperitoneal dataset used in our experiments cannot be shared. The code is fully usable on any dataset organized in nnU-Net format. Example public datasets and instructions are listed in `data/README.md`.
 
 ## Architecture at a Glance
-![ViLU-Net Figure](data/figure.png)
+![ViLU-Net Figure](data/our_method.jpg)
 
 ## Quick Start
 1) Create environment (example): `conda create -n vilunet python=3.10 -y && conda activate vilunet`
