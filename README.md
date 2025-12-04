@@ -8,14 +8,12 @@ Due to privacy reasons, the retroperitoneal dataset used in our experiments cann
 ## Architecture at a Glance
 ![ViLU-Net Figure](data/figure.png)
 
-Conv stem → ViL blocks after each encoder stage → mirrored decoder with upsampling, residual convs, and ViL blocks before segmentation heads (see paper figure above).
-
 ## Quick Start
 1) Create environment (example): `conda create -n vilunet python=3.10 -y && conda activate vilunet`
 2) Install PyTorch matching your CUDA: `pip install torch==2.0.1 torchvision==0.15.2 --index-url https://download.pytorch.org/whl/cu118`
 3) Install this repo in editable mode:
    ```bash
-   cd UxLSTM
+   cd ViLU-Net
    pip install -e .
    ```
 4) Preprocess data with nnU-Net v2:
@@ -40,9 +38,5 @@ nnUNetv2_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -d DATASET_ID -c {2d|3d_fullre
 ```
 
 ## Notes
-- Architecture: Conv stem → repeated Conv+IN+LeakyReLU blocks with ViL blocks after each encoder stage, mirrored decoder with upsampling, residual convs, and ViL blocks before segmentation heads.
-- Pretrained weights: place under `pretrained_model/` and run `python process_weight.py` to copy into nnU-Net expected folders.
-- Credits: We appreciate the xLSTM-UNet authors for releasing their Vision-LSTM components, which this work builds upon.
 
-## Repository
-Project home: https://github.com/moeinheidari7829/Retroperitoneal_Tumour_Segmentation_SPIE2025
+- Credits: We appreciate the xLSTM-UNet authors for releasing their Vision-LSTM components, which this work builds upon.
