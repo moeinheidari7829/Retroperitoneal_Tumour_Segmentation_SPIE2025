@@ -1,0 +1,4 @@
+Retroperitoneal Tumour Segmentation (ViLU-Net)
+Copyright (c) 2024 Moein Heidari
+
+This repository incorporates components derived from the xLSTM-UNet codebase by Tianrun Chen et al. (Vision-LSTM blocks) under their respective open-source terms. All modifications specific to ViLU-Net for SPIE 2025 are provided for research use. Refer to https://github.com/moeinheidari7829/Retroperitoneal_Tumour_Segmentation_SPIE2025 for project details and attribution.
