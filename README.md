@@ -1,4 +1,10 @@
-# Retroperitoneal Tumour Segmentation (ViLU-Net)
+🚀 **Official Repository for SPIE 2025 Accepted Paper (ViLU-Net)** 🚀  
+
+**📄 Paper:** *A Study on the Performance of U-Net Modifications in Retroperitoneal Tumor Segmentation* 
+
+📌 **Status:** Accepted at **SPIE Medical Imaging 2025** 🎉  
+
+🔗 **[Read the Paper on arXiv](https://arxiv.org/abs/2502.00314)**
 
 ViLU-Net is our SPIE 2025 architecture built on nnU-Net v2, embedding Vision-LSTM (ViL) blocks in both encoder and decoder. Two variants are provided: 2D and 3D full-resolution.
 
@@ -37,6 +43,21 @@ Adjust `-bs` and `-lr` to your hardware and dataset.
 nnUNetv2_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -d DATASET_ID -c {2d|3d_fullres} -f all -tr nnUNetTrainerViLUNet --disable_tta
 ```
 
-## Notes
+## 🏆 Acknowledgment  
+We sincerely thank the authors of **[U-Mamba](https://github.com/bowang-lab/U-Mamba)**, and **[xLSTM-Unet](https://github.com/tianrun-chen/xLSTM-UNet-Pytorch)** for their open-source contributions.  
 
-- Credits: We appreciate the xLSTM-UNet authors for releasing their Vision-LSTM components, which this work builds upon.
+---
+
+## 📖 Citation  
+If you find our work useful, please consider citing our paper:  
+
+```bibtex
+@misc{heidari2025studyperformanceunetmodifications,
+      title={A Study on the Performance of U-Net Modifications in Retroperitoneal Tumor Segmentation}, 
+      author={Moein Heidari and Ehsan Khodapanah Aghdam and Alexander Manzella and Daniel Hsu and Rebecca Scalabrino and Wenjin Chen and David J. Foran and Ilker Hacihaliloglu},
+      year={2025},
+      eprint={2502.00314},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2502.00314}, 
+}
