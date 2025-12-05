@@ -52,12 +52,17 @@ We sincerely thank the authors of **[U-Mamba](https://github.com/bowang-lab/U-Ma
 If you find our work useful, please consider citing our paper:  
 
 ```bibtex
-@misc{heidari2025studyperformanceunetmodifications,
-      title={A Study on the Performance of U-Net Modifications in Retroperitoneal Tumor Segmentation}, 
-      author={Moein Heidari and Ehsan Khodapanah Aghdam and Alexander Manzella and Daniel Hsu and Rebecca Scalabrino and Wenjin Chen and David J. Foran and Ilker Hacihaliloglu},
-      year={2025},
-      eprint={2502.00314},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV},
-      url={https://arxiv.org/abs/2502.00314}, 
+@inproceedings{10.1117/12.3046948,
+author = {Moein Heidari and Ehsan Khodapanah Aghdam and Alexander Manzella and Daniel Hsu and Rebecca Scalabrino and Wenjin Chen and David J. Foran and Ilker Hacihaliloglu},
+title = {{A study on the performance of U-Net modifications in retroperitoneal tumor segmentation}},
+volume = {13407},
+booktitle = {Medical Imaging 2025: Computer-Aided Diagnosis},
+editor = {Susan M. Astley and Axel Wism{\"u}ller},
+organization = {International Society for Optics and Photonics},
+publisher = {SPIE},
+pages = {134071N},
+keywords = {Retroperitoneal tumor, Deep learning, Convolutional neural network, U-Net, Mamba, Transformer, xLSTM},
+year = {2025},
+doi = {10.1117/12.3046948},
+URL = {https://doi.org/10.1117/12.3046948}
 }
